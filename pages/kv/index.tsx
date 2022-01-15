@@ -1,4 +1,5 @@
-import type { NextPage } from "next";
+import axios from "axios";
+import type { GetStaticProps, NextPage } from "next";
 
 const KeyValuePage: NextPage = () => {
   return (
